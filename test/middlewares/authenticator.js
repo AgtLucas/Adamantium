@@ -34,5 +34,5 @@ exports.signAgent = function *(agent, done) {
       } catch (err) {
         done(err);
       }
-    })
+    });
 };
