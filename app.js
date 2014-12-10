@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var passport = require('koa-passport');
 
 // Config
-var config = require('./config/confg');
+var config = require('./config/config');
 
 // DB!
 mongoose.connect(config.mongo.url);
