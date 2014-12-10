@@ -38,5 +38,19 @@
     "superagent": "^0.21.0",
     "vinyl-source-stream": "^1.0.0",
     "whiskers": "^0.3.3"
+  },
+  "devDependencies": {
+    "browserify": "^7.0.0",
+    "browserify-shim": "^3.8.1",
+    "envify": "^3.2.0",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.2",
+    "gulp-minify-css": "^0.3.11",
+    "gulp-nodemon": "^1.0.4",
+    "gulp-react": "^2.0.0",
+    "gulp-sourcemaps": "^1.2.8",
+    "mocha": "^2.0.1",
+    "should": "^4.3.1",
+    "supertest": "^0.15.0"
   }
 }
