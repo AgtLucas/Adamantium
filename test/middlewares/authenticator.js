@@ -19,7 +19,7 @@ exports.createUser = function *() {
   });
 };
 
-exports.signAgent = function *(agent, done) {
+exports.signAgent = function (agent, done) {
   agent
     .post(exports.LOGIN_URL)
     .set('Content-Type', 'application/json')
