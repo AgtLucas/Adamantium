@@ -32,7 +32,7 @@
     "koa-router": "^3.7.0",
     "koa-static": "^1.4.7",
     "lodash": "^2.4.1",
-    "mongoose": "^3.8.20",
+    "mongoose": "3.9.x",
     "passport-local": "^1.0.0",
     "react": "^0.12.1",
     "react-router": "^0.11.4",
@@ -52,7 +52,7 @@
     "gulp-react": "^2.0.0",
     "gulp-ruby-sass": "^0.7.1",
     "gulp-sourcemaps": "^1.2.8",
-    "mocha": "^2.0.1",
+    "mocha": "1.21.x",
     "should": "^4.3.1",
     "supertest": "^0.15.0"
   },
