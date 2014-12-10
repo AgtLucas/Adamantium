@@ -4,6 +4,7 @@
   "description": "Nothing you should care about!",
   "main": "app.js",
   "scripts": {
+    "start": "gulp dev",
     "test": "NODE_ENV=test ./node_modules/.bin/mocha --harmony --reporter spec ./test/test-*.js"
   },
   "repository": {
