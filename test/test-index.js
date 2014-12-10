@@ -37,7 +37,7 @@ describe('Index', function () {
     it('should render the page', function (done) {
       request.get('/')
         .expect(200)
-        .end(done)
+        .end(done);
     });
   });
 
