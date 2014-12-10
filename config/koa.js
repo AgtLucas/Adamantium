@@ -1,3 +1,5 @@
+'use strict';
+
 var koaStatic = require('koa-static');
 var session = require('koa-generic-session');
 var responseTime = require('koa-response-time');
