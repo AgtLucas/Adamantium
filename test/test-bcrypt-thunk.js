@@ -1,5 +1,3 @@
-'use strict';
-
 var bcrypt = require('../lib/bcrypt-thunk');
 var should = require('should');
 

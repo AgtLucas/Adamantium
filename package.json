@@ -55,5 +55,11 @@
     "mocha": "^2.0.1",
     "should": "^4.3.1",
     "supertest": "^0.15.0"
-  }
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "browserify-shim": {}
 }
