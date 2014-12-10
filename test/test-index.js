@@ -3,7 +3,7 @@
 var should = require('should');
 var app = require('../app');
 var request = require('supertest').agent(app.listen());
-var databaseHelper = require('./middlewares/dabase');
+var databaseHelper = require('./middlewares/database');
 var authHelper = require('./middlewares/authenticator');
 
 // ES6 Generators, bitch!
